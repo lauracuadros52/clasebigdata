@@ -115,20 +115,21 @@ Databricks Volume
 
 Bronze – Datos crudos
 
-<p align="justify"> En esta capa se conserva la información original sin transformaciones, permitiendo mantener la trazabilidad de los datos desde su origen. </p>
+<p align="justify"> En esta capa se conservó la información original sin transformaciones, permitiendo mantener la trazabilidad de los datos desde su origen. </p>
 
 Silver – Transformación
 
-<p align="justify"> En esta etapa se realizan las principales actividades de limpieza, organización y transformación de los datos. También se preparan las variables necesarias para el cálculo de los indicadores. </p>
+<p align="justify"> En esta etapa se realizaron las principales actividades de limpieza, organización y transformación de los datos. También se preparan las variables necesarias para el cálculo de los indicadores. </p>
 
 Gold – Datos para análisis
 
-<p align="justify"> En esta capa se consolidan los datos y resultados que serán utilizados para alimentar el dashboard de Power BI y facilitar el análisis de los indicadores de producción. </p>
+<p align="justify"> En esta capa se consolidaron los datos y resultados que fueron utilizados para alimentar el dashboard de Power BI y facilitar el análisis de los indicadores de producción. </p>
 
 <img width="326" height="400" alt="Tablas gold" src="https://github.com/user-attachments/assets/4ddddf33-384f-4775-a928-38e6a41d64d8" />
 
 
 Databricks Jobs
+
 
 <p align="justify"> Los Jobs permiten automatizar la ejecución del pipeline, haciendo posible que el proceso pueda ejecutarse nuevamente cuando se incorporen nuevos datos. </p>
 
@@ -141,7 +142,11 @@ Power BI – Visualización
 <img width="700" height="330" alt="Bigdata4" src="https://github.com/user-attachments/assets/fa065d86-68e7-43b8-8f7a-16d58f00d277" />
 
 
+
+
 <img width="700" height="364" alt="Bigdata3" src="https://github.com/user-attachments/assets/17d1156f-a398-48f5-867d-27cb8eedf165" />
+
+
 
 
 <img width="700" height="770" alt="Bigdata 2" src="https://github.com/user-attachments/assets/37967fd0-abe4-408b-a09a-5adaea69ed5b" />
