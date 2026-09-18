@@ -102,6 +102,7 @@ El proyecto incluirá la construcción de las capas de datos, transformación de
 No se busca modificar el proceso transaccional de SAP. El objetivo es trabajar sobre la información que actualmente se obtiene de este sistema y mejorar el proceso posterior de preparación y análisis.
 
 
+
 <img width="1478" height="807" alt="Bigdata1" src="https://github.com/user-attachments/assets/2f24dc07-b020-4927-849e-f399c648d891" />
 
 ________________________________________
@@ -109,32 +110,34 @@ ________________________________________
 
 <p align="justify"> La solución propuesta utiliza una arquitectura basada en Databricks, en la cual la información pasa por diferentes etapas antes de ser consumida en Power BI. </p>
 
-Databricks Volume
+**Databricks Volume**
 
 <p align="justify"> Los archivos de información de producción son almacenados inicialmente en Databricks Volumes, permitiendo centralizar la información antes de iniciar su procesamiento. </p>
 
-Bronze – Datos crudos
+**Bronze – Datos crudos**
 
 <p align="justify"> En esta capa se conservó la información original sin transformaciones, permitiendo mantener la trazabilidad de los datos desde su origen. </p>
 
-Silver – Transformación
+**Silver – Transformación**
 
 <p align="justify"> En esta etapa se realizaron las principales actividades de limpieza, organización y transformación de los datos. También se preparan las variables necesarias para el cálculo de los indicadores. </p>
 
-Gold – Datos para análisis
+**Gold – Datos para análisis**
 
 <p align="justify"> En esta capa se consolidaron los datos y resultados que fueron utilizados para alimentar el dashboard de Power BI y facilitar el análisis de los indicadores de producción. </p>
 
 <img width="326" height="400" alt="Tablas gold" src="https://github.com/user-attachments/assets/4ddddf33-384f-4775-a928-38e6a41d64d8" />
 
 
-Databricks Jobs
+
+
+**Databricks Jobs**
 
 
 <p align="justify"> Los Jobs permiten automatizar la ejecución del pipeline, haciendo posible que el proceso pueda ejecutarse nuevamente cuando se incorporen nuevos datos. </p>
 
 
-Power BI – Visualización
+**Power BI – Visualización**
 
 <p align="justify"> Finalmente, las tablas Gold son utilizadas como fuente para Power BI, donde se construye el dashboard de indicadores de producción. Esta herramienta permite visualizar y analizar información relacionada con producción, eficiencia, utilización, cumplimiento de metas, mantenimiento y paradas improductivas, facilitando el seguimiento de la operación y la toma de decisiones. </p>
 
