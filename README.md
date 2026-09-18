@@ -45,16 +45,14 @@ Actualmente, el proceso utilizado para generar los indicadores cumple con su obj
 
 <p align="justify">Otro aspecto importante es que los datos de producción no solamente pueden utilizarse para construir indicadores. Una vez que se encuentran organizados y estructurados, también pueden ser analizados para encontrar comportamientos, relaciones y patrones que no necesariamente son evidentes en el reporte tradicional.
 
-<p align="justify">Por esto, además de automatizar el proceso, el proyecto contempla explorar el uso de Machine Learning para determinar qué variables pueden ayudar a explicar o anticipar el comportamiento de algunos indicadores de producción.
-
 ________________________________________
 4. Objetivo general:
 
 <p align="justify">Optimizar el proceso de generación de los indicadores diarios de producción mediante la implementación de una solución de datos en Databricks que permita automatizar las principales transformaciones realizadas actualmente en Excel, reduciendo el tiempo y la intervención manual requerida para preparar la información utilizada en Power BI.
+   
 ________________________________________
 5. Objetivos específicos:
    
-
 <p align="justify">5.1	Analizar el proceso actual utilizado para transformar la información descargada desde SAP e identificar las principales actividades que se realizan manualmente en Excel.
    
 
