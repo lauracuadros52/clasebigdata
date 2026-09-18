@@ -1,6 +1,6 @@
 Proyecto Académico Big Data - Laura Jisseth Cuadros & Yamile Mosquera Vasquez
 
-**##Optimización de la generación de indicadores diarios de producción mediante Big Data##**
+**##Optimización de la generación de indicadores diarios de producción mediante Big Data**
 
 1. Resumen:
    
