@@ -33,11 +33,11 @@ ________________________________________
 Optimizar el proceso de generación de los indicadores diarios de producción mediante la implementación de una solución de datos en Databricks que permita automatizar las principales transformaciones realizadas actualmente en Excel, reduciendo el tiempo y la intervención manual requerida para preparar la información utilizada en Power BI.
 ________________________________________
 5. Objetivos específicos:
-1.	Analizar el proceso actual utilizado para transformar la información descargada desde SAP e identificar las principales actividades que se realizan manualmente en Excel.
-2.	Construir en Databricks un proceso de transformación de datos que permita limpiar, organizar y preparar la información proveniente de SAP.
-3.	Trasladar las principales fórmulas y transformaciones utilizadas actualmente en Excel a Databricks, verificando que los resultados obtenidos sean consistentes con el proceso actual.
-4.	Explorar los datos de producción mediante técnicas de analítica y Machine Learning, con el fin de identificar variables y patrones relevantes en el comportamiento de los indicadores.
-5.	Comparar el proceso actual con el proceso automatizado, considerando aspectos como tiempo de procesamiento, cantidad de actividades manuales y consistencia de los resultados.
+5.1	Analizar el proceso actual utilizado para transformar la información descargada desde SAP e identificar las principales actividades que se realizan manualmente en Excel.
+5.2  Construir en Databricks un proceso de transformación de datos que permita limpiar, organizar y preparar la información proveniente de SAP.
+5.3 Trasladar las principales fórmulas y transformaciones utilizadas actualmente en Excel a Databricks, verificando que los resultados obtenidos sean consistentes con el proceso actual.
+5.4  Explorar los datos de producción mediante técnicas de analítica y Machine Learning, con el fin de identificar variables y patrones relevantes en el comportamiento de los indicadores.
+5.5 Comparar el proceso actual con el proceso automatizado, considerando aspectos como tiempo de procesamiento, cantidad de actividades manuales y consistencia de los resultados.
    
 ________________________________________
 6. Análisis económico: 
@@ -76,6 +76,8 @@ ________________________________________
    
 Se desarrolló un dashboard en Power BI para visualizar los resultados generados por el proceso de automatización en Databricks. Este permite: Analizar la eficiencia mecánica y nivel de utilización por la línea de producción y presentación de producto, identificar cuellos de botella operativos causados por tiempos de mantenimiento y paradas improductivas, monitorear el volumen máximo de cajas producidas frente al porcentaje de cumplimiento de metas de la planta, entre otros. La visualización se alimenta de las tablas gold creadas en databricks, que contienen la información consolidada. Adicional, el pipeline de datos queda desplegado como un proceso automatizado en Databricks que permite refrescar las métricas de producción de forma periódica.
 <img width="696" height="330" alt="Bigdata4" src="https://github.com/user-attachments/assets/fa065d86-68e7-43b8-8f7a-16d58f00d277" />
+
 <img width="690" height="364" alt="Bigdata3" src="https://github.com/user-attachments/assets/17d1156f-a398-48f5-867d-27cb8eedf165" />
+
 <img width="696" height="770" alt="Bigdata 2" src="https://github.com/user-attachments/assets/37967fd0-abe4-408b-a09a-5adaea69ed5b" />
 
